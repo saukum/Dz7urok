@@ -31,6 +31,7 @@ Telegram-бот @urok_prikolyi_bot: время и погода в Астане, 
 ## Файлы
 - `bot.py` — весь код бота. Блоки: `get_*_text`, `SECTIONS`/`build` (сборка ответов), `BUTTONS`/`COMMANDS`/`resolve` (маршрутизация), `tg` (вызов API), `handle_message`, `handle_callback`, `main`.
 - `requirements.txt` — зависимости.
+- `README.md` — описание проекта, запуск и описание используемых API. При изменении команд или источников данных обновлять и его.
 - `.env` — секреты, переменная `BOT_TOKEN`. Исключён через `.gitignore`.
 - `.gitignore` — содержит `.env`.
 
